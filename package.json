@@ -1,0 +1,19 @@
+{
+  "name": "checkpoint1",
+  "version": "1.0.0",
+  "main": "helloSiri.js",
+  "scripts": {
+    "lint": "eslint ./dataStructures.js ./helloSiri.js",
+    "jest": "jest -i",
+    "test-release1": "npm run jest -- spec/data_structures.spec.js",
+    "test-release2": "npm run jest -- spec/hello_siri.spec.js",
+    "test": "npm run jest -- spec/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1"
+  }
+}
