@@ -51,7 +51,7 @@ describe('numbersInObject', () => {
 // /////////////////////
 
 describe('.nonRepeatingChar', () => {
-  xit('returns the first character which is not repeated in a string', () => {
+  it('returns the first character which is not repeated in a string', () => {
     expect(nonRepeatingChar('yellow')).toEqual('y');
     expect(nonRepeatingChar('tooth')).toEqual('h');
     expect(nonRepeatingChar('wallawallabingbang')).toEqual('i');
